@@ -13,12 +13,12 @@ Pod::Spec.new do |s|
 
   s.subspec 'Core' do |sp|
     sp.ios.source_files = 'Sources/**/*.{swift}'
-    sp.dependency 'Eureka', '~> 2.0.1'
+    sp.dependency 'Eureka', '~> 3.0.0'
     sp.dependency 'PluggableApplicationDelegate', '~> 0.1.2'
     sp.dependency 'OperaSwift', '~> 2.0.0'
     sp.dependency 'RealmSwift', '~> 2.6.1'
     sp.dependency 'RxRealm', '~> 0.6.0'
-    # sp.dependency 'RxSwift', '~> 3.4.0'
+    sp.dependency 'RxSwift', '~> 3.4.0'
     sp.dependency 'Decodable', '~> 0.5'
   end
 
