@@ -2,10 +2,10 @@ Pod::Spec.new do |s|
   s.name                  = "SwiftyMatter"
   s.version               = "1.0.0"
   s.summary               = "A swift framework that helps you build awesome iOS apps."
-  s.homepage              = "https://github.com/xmartlabs/Swift-Base-Project"
+  s.homepage              = "https://github.com/xmartlabs/SwiftyMatter"
   s.license               = { type: 'MIT', file: 'LICENSE' }
   s.author                = { "Xmartlabs SRL" => "swift@xmartlabs.com" }
-  s.source                = { git: "https://github.com/xmartlabs/Swift-Base-Project.git", tag: s.version.to_s }
+  s.source                = { git: "https://github.com/xmartlabs/SwiftyMatter.git", tag: s.version.to_s }
   s.social_media_url      = 'https://twitter.com/xmartlabs'
   s.ios.deployment_target = '9.0'
   s.requires_arc          = true
